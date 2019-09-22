@@ -1,7 +1,8 @@
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 import java.lang.*;
-import java.io.IOException;
+
+
+
 
 
 
@@ -9,6 +10,8 @@ public class UniversityLife {
 
 
   public static void main(String[] args) {
+
+
 
 
 
