@@ -1,6 +1,10 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+import java.lang.*;
+import java.io.IOException;
 
 public class UniversityLife {
+
 
   public static void main(String[] args) {
 
@@ -28,6 +32,22 @@ public class UniversityLife {
     System.out.println("                                           __/ |                   ");
     System.out.println("                                         |___/                    ");
 
+    long original = System.currentTimeMillis();
+    while (true) {
+        if ( System.currentTimeMillis() - original >= 3000) {
+            break;
+        }
     }
+
+    for(int clear = 0; clear < 1000; clear++) {
+    System.out.println("\b") ;
+}
+
+
+}
+ public static void menu() {
+
+
+ }
 
 }
