@@ -7,7 +7,7 @@ public class UniversityLife {
 
     opening();
 
-    pauseGame();
+    pauseGame(3000);
 
     clearScreen();
 
@@ -40,13 +40,13 @@ public class UniversityLife {
   }
 
   //this pauses the game for 3 seconds
-  public static void pauseGame() {
+  public static void pauseGame(int millis) {
 
       long original = System.currentTimeMillis();
 
       while (true) {
 
-          if ( System.currentTimeMillis() - original >= 3000) {
+          if ( System.currentTimeMillis() - original >= millis) {
 
               break;
             }
@@ -100,7 +100,7 @@ public class UniversityLife {
 
       System.out.println("Jim Ryan");
 
-      pauseGame();
+      pauseGame(3000);
 
       //image of Jim
       System.out.println("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
@@ -158,13 +158,13 @@ public class UniversityLife {
       System.out.println("dmmmmmmmmmmmmmmmmdmmmmmmmmmmmmmdddmmmmmmmhyyyyssyhhhhyyyhyyyyhyysossssssyyyydmmmNmmmNmmmmmmmmmmmmmmm");
       System.out.println("mmmdmmmmmmmmmmmmddmmmmmmmmmmmmmmmmmmmmmmmdyyyssooysyhyssyhysyyssoooossssssyshmmmmmmmmmmmmmmmmmmmmmmm");
 
-      pauseGame();
+      pauseGame(3000);
 
       clearScreen();
 
       System.out.println("Tom Carey");
 
-      pauseGame();
+      pauseGame(3000);
 
       //image of Tom
       System.out.println("NNNNNmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN");
@@ -219,7 +219,7 @@ public class UniversityLife {
       System.out.println("                                    ``   `````````````````````.`........`.ydmmmmmmmmmmmmmmmmmmmmmmmm");
       System.out.println("                          `      `    ````````````````````````...........`-dddddddddddmmmmmmmmmmmmmm");
 
-      pauseGame();
+      pauseGame(3000);
 
       clearScreen();
 
