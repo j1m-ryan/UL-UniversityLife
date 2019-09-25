@@ -5,6 +5,8 @@ public class UniversityLife {
 
   public static void main(String[] args) {
 
+    intro();
+
     opening();
 
     pauseGame(3000);
@@ -14,6 +16,28 @@ public class UniversityLife {
     menu();
 
     }
+
+//prints out some ascii art for TEAM STONKS (placeholder team name)
+public static void intro() {
+
+  clearScreen();
+
+  System.out.println(" _______ ______          __  __     _____ _______ ____  _   _ _  __ _____ ");
+  System.out.println("|__   __|  ____|   /\\   |  \\/  |   / ____|__   __/ __ \\| \\ | | |/ // ____|");
+  System.out.println("   | |  | |__     /  \\  | \\  / |  | (___    | | | |  | |  \\| | ' /| (___  ");
+  System.out.println("   | |  |  __|   / /\\ \\ | |\\/| |   \\___ \\   | | | |  | | . ` |  <  \\___ \\ ");
+  System.out.println("   | |  | |____ / ____ \\| |  | |   ____) |  | | | |__| | |\\  | . \\ ____) |");
+  System.out.println("   |_|  |______/_/    \\_\\_|  |_|  |_____/   |_|  \\____/|_| \\_|_|\\_\\_____/ ");
+
+  pauseGame(2000);
+
+}
+
+
+
+
+
+
 
 //prints out some ascii art
   public static void opening() {
@@ -121,6 +145,8 @@ public class UniversityLife {
   }
 
  }
+
+ //prints the credits sequence
  public static void credits() {
 
    clearScreen();
